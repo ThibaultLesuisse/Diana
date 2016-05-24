@@ -34,13 +34,13 @@
                 font-size: 96px;
             }
             .enter-button {
-              font-size: 3em;
+              margin-top: 2em;
+              font-size: 2em;
               text-decoration: none;
-              border: solid 1px black;
-              border-radius: 4px;
               padding: 0;
-              width: inherit;
-
+              border: solid 1px black;
+                width: 10em;
+                margin: 0 auto;
             }
             a:link {
               text-decoration: none;
@@ -56,6 +56,7 @@
     <body>
         <div class="container">
             <div class="content">
+                <img src="img/favicon.png">
                 <div class="title">Diana, The Smartcloset</div>
                 <div class="enter-button"> <a href="{{ url('index') }}">Enter here</a> </div>
             </div>

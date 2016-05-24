@@ -21,3 +21,9 @@ Route::get('/index', function (){
 Route::get('/login', function(){
   return view('login');
 });
+Route::get('/closet', function(){
+    return view ('closet');
+});
+Route::get('clothes/shirts', function(){
+    return view('clothes/shirts');
+});

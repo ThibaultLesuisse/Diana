@@ -8,6 +8,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <title>Diana</title>
     <script>
         $(document).ready(function(){
@@ -29,6 +30,7 @@
             </ul>
         </div>
     </nav>
+    <div class="title">Diana, The Smartcloset</div> 
     <div id="login_container">
         <div class="row">
             <div class="col-sm-2">

@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
     <title>Diana</title>
 </head>
-
+<html>
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -17,8 +17,7 @@
                 <a class="navbar-brand" href="index.html"><img src="img/favicon.png" style="width: 1.5em; height: 1.5em; float: left">  Diana</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="{{ url('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="{{ url('/') }}"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
             </ul>
         </div>
     </nav>
