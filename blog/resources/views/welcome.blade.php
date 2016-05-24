@@ -33,12 +33,31 @@
             .title {
                 font-size: 96px;
             }
+            .enter-button {
+              font-size: 3em;
+              text-decoration: none;
+              border: solid 1px black;
+              border-radius: 4px;
+              padding: 0;
+              width: inherit;
+
+            }
+            a:link {
+              text-decoration: none;
+              color: black;
+            }
+
+            a:visited {
+              text-decoration: none;
+              color: black;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Diana, The Smartcloset</div>
+                <div class="enter-button"> <a href="{{ url('index') }}">Enter here</a> </div>
             </div>
         </div>
     </body>

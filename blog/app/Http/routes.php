@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::auth();
+Route::get('/index', function (){
+  return view('index');
+});
+Route::get('/login', function(){
+  return view('login');
+});
